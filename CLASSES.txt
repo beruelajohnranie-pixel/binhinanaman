@@ -1,0 +1,104 @@
+MODEL 1 (isang class bawat binhi) - pangalan ng Class | Local | English | Mga Type
+(dagdag: not_seed)
+kamatis         | Kamatis | Tomato | Kamatis
+talong          | Talong | Eggplant | Talong
+kangkong        | Kangkong | Water Spinach | Kangkong
+sitaw           | Sitaw | Yardlong Bean | Sitaw Violet, Sitaw Puti, Sitaw Baguio
+labanos         | Labanos | Radish | Labanos
+okra            | Okra | Okra | Okra
+pechay          | Pechay | Pechay (Bok Choy) | Pechay
+ampalaya        | Ampalaya | Bitter Gourd | Ampalaya
+upo             | Upo | Bottle Gourd | Upo
+patola          | Patola | Sponge Gourd | Patola
+kalabasa        | Kalabasa | Squash | Kalabasa
+sili            | Sili | Chili / Pepper | Bell Pepper, Labuyo
+sibuyas         | Sibuyas | Onion | Sibuyas
+repolyo         | Repolyo | Cabbage | Repolyo
+karot           | Carrots | Carrot | Carrots
+mustasa         | Mustasa | Mustard Greens | Mustasa
+munggo          | Monggo | Mung Bean | Monggo
+mani            | Mani | Peanut | Mani
+letsugas        | Lettuce | Lettuce | Iceberg Lettuce, Romaine Lettuce
+malunggay       | Malunggay | Moringa | Malunggay
+alugbati        | Alugbati | Malabar Spinach | Alugbati
+bataw           | Bataw | Hyacinth Bean | Bataw Green, Bataw Violet
+patani          | Patani | Lima Bean | Patani Puti, Patani Berde, Patani Pula, Patani Itim
+sigarilyas      | Sigarilyas | Winged Bean | Sigarilyas
+saluyot         | Saluyot | Jute Leaves | Saluyot
+mais            | Mais | Corn | Waxy Corn, Yellow Corn, Sweet Corn
+pakwan          | Pakwan | Watermelon | Sugar Baby, Crimson Sweet, Seedless Watermelon
+papaya          | Papaya | Papaya | Papaya
+kundol          | Kundol | Wax Gourd | Kundol
+linga           | Linga | Sesame | Linga Puti, Linga Itim
+sayote          | Sayote | Chayote | Sayote
+baguio_beans    | Beans | Snap Beans (Baguio Beans) | Baguio Beans
+cauliflower     | Cauliflower | Cauliflower | Cauliflower
+broccoli        | Broccoli | Broccoli | Broccoli
+katuray         | Katuray | Sesbania | Katuray
+himbabao        | Himbabao | Philippine Mulberry | Himbabao
+kadyos          | Kadyos | Pigeon Pea | Kadyos
+chicharo        | Chicharo | Peas | Green Peas, Snow Pea, Snap Pea
+mangga          | Mangga | Mango | Pico / Piko, Katchamita, Carabao Mango, Apple Mango, Indian Mango
+guyabano        | Guyabano | Soursop | Guyabano
+atis            | Atis | Sugar Apple | Atis
+chico           | Chico | Sapodilla | Chico
+avocado         | Avocado | Avocado | Avocado
+rambutan        | Rambutan | Rambutan | Rambutan
+lanzones        | Lanzones | Lanzones | Lanzones
+santol          | Santol | Santol | Santol
+sineguelas      | Sineguelas | Spanish Plum | Sineguelas
+duhat           | Duhat | Java Plum | Duhat
+bayabas         | Bayabas | Guava | Bayabas
+calamansi       | Calamansi | Calamansi | Calamansi
+suha            | Suha | Pomelo | Suha
+aratilis        | Aratilis | Jamaica Cherry | Aratilis
+kaymito         | Kaymito | Star Apple | Kaymito
+sampalok        | Sampalok | Tamarind | Sampalok
+nangka          | Nangka / Langka | Jackfruit | Nangka
+durian          | Durian | Durian | Durian
+mangosteen      | Mangosteen | Mangosteen | Mangosteen
+balimbing       | Balimbing | Starfruit | Balimbing
+macopa          | Macopa | Wax Apple | Macopa
+kamias          | Kamias | Bilimbi | Kamias
+lipote          | Lipote (Kalumpit) | Lipote | Lipote
+kasoy           | Kasoy | Cashew | Kasoy
+orange          | Orange | Orange | Kist-Kiat / Dalanghita, Navel Orange, Blood Orange, Cara Cara Orange, Ponkan
+lemon           | Lemon | Lemon | Lemon
+dragon_fruit    | Dragon Fruit | Dragon Fruit | Dragon Fruit
+passion_fruit   | Passion Fruit | Passion Fruit | Passion Fruit
+kiwi            | Kiwi | Kiwi | Kiwi
+grapes          | Grapes | Grapes | Grapes
+chesa           | Chesa | Canistel | Chesa
+mabolo          | Mabolo | Velvet Apple | Mabolo
+melon           | Melon | Melon | Cantaloupe, Honeydew
+tapilan         | Tapilan | Rice Bean | Tapilan
+camansi         | Kamansi | Camansi (Breadnut) | Kamansi
+apple           | Mansanas | Apple | Green Apple, Red Apple
+
+MODEL 2 (isa lang para sa bawat binhing may Type) - ilagay sa model/types/<pangalan ng binhi>/
+
+model/types/sitaw/  -> Class: sitaw_violet, sitaw_puti, sitaw_baguio
+
+model/types/sili/  -> Class: bell_pepper, labuyo
+
+model/types/letsugas/  -> Class: iceberg_lettuce, romaine_lettuce
+
+model/types/bataw/  -> Class: bataw_green, bataw_violet
+
+model/types/patani/  -> Class: patani_puti, patani_berde, patani_pula, patani_itim
+
+model/types/mais/  -> Class: waxy_corn, yellow_corn, sweet_corn
+
+model/types/pakwan/  -> Class: sugar_baby, crimson_sweet, seedless_watermelon
+
+model/types/linga/  -> Class: linga_puti, linga_itim
+
+model/types/chicharo/  -> Class: green_peas, snow_pea, snap_pea
+
+model/types/mangga/  -> Class: pico_piko, katchamita, carabao_mango, apple_mango, indian_mango
+
+model/types/orange/  -> Class: kist_kiat_dalanghita, navel_orange, blood_orange, cara_cara_orange, ponkan
+
+model/types/melon/  -> Class: cantaloupe, honeydew
+
+model/types/apple/  -> Class: green_apple, red_apple
